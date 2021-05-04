@@ -52,23 +52,3 @@ const start = async () => {
 };
 
 start();
-
-// const { fastify } = require('fastify');
-
-// const server = fastify();
-
-// server.get('/health', async (_, res) => {
-//   res
-//     .code(200)
-//     .send();
-// });
-
-// const start = async () => {
-//   try {
-//     await server.listen(8082, '0.0.0.0');
-//   } catch (err) {
-//     process.exit(1);
-//   }
-// };
-
-// start();
